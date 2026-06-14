@@ -49,7 +49,7 @@ do
     ThemeManager.BuiltInThemes = {
         ["Default"] = {
             1,
-            { FontColor = "ffffff", MainColor = "191919", AccentColor = "7d55ff", BackgroundColor = "0f0f0f", OutlineColor = "282828" },
+            { FontColor = "#C7D0E0", MainColor = "#0E1624", AccentColor = "#2F74FF", BackgroundColor = "#0A0F1A", OutlineColor = "#1F2A3A" },
         },
         ["BBot"] = {
             2,
@@ -367,7 +367,7 @@ do
         groupbox:AddLabel("Font color"):AddColorPicker("FontColor", { Default = self.Library.Scheme.FontColor })
         groupbox:AddDropdown("FontFace", {
             Text = "Font Face",
-            Default = "Code",
+            Default = "Jura",
             Values = { "BuilderSans", "Code", "Fantasy", "Gotham", "Jura", "Roboto", "RobotoMono", "SourceSans" },
         })
 
