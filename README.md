@@ -1,1 +1,2 @@
 # avox.lol
+crack pls😈
